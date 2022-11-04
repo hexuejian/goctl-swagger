@@ -9,8 +9,3 @@ require (
 	github.com/zeromicro/go-zero/tools/goctl v1.3.2
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 )
-
-
-//replace (
-//	github.com/zeromicro/goctl-swagger latest => github.com/hexuejian/goctl-swagger latest
-//)
