@@ -11,6 +11,6 @@ require (
 )
 
 
-replace (
-	github.com/zeromicro/goctl-swagger latest => github.com/hexuejian/goctl-swagger latest
-)
+//replace (
+//	github.com/zeromicro/goctl-swagger latest => github.com/hexuejian/goctl-swagger latest
+//)
