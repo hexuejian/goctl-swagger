@@ -6,7 +6,7 @@
 package example
 
 import (
-	"github.com/zeromicro/goctl-swagger/action"
+	"github.com/hexuejian/goctl-swagger/action"
 	"testing"
 )
 
