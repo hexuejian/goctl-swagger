@@ -334,6 +334,9 @@ func renderStruct(member spec.Member) swaggerParameterObject {
 	sp := swaggerParameterObject{In: "query", Type: ftype, Format: format}
 
 	for _, tag := range member.Tags() {
+		if tag.Key != "form" && tag.Key != "json" && tag.Key != "path" {
+			continue
+		}
 		sp.Name = tag.Name
 		if len(tag.Options) == 0 {
 			sp.Required = true
